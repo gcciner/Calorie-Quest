@@ -1,0 +1,21 @@
+[
+ {"id":"stretch","name":"Estiramiento suave","windows":["wake","night","work_break","college_break","afternoon"],"minutes":3,"coins":30,"kind":"stretch","how":"Cuello, hombros, espalda y piernas, 30 s cada uno."},
+ {"id":"jacks","name":"Saltos de tijera","windows":["wake","college_break","night","afternoon"],"minutes":5,"coins":60,"kind":"strength","base":30,"unit":"reps","how":"En 2-3 series con pausa corta."},
+ {"id":"squats","name":"Sentadillas","windows":["wake","night","college_break","afternoon","work_break"],"minutes":5,"coins":55,"kind":"strength","base":15,"unit":"reps","how":"2 series, espalda recta."},
+ {"id":"pushups","name":"Flexiones (rodillas o pared)","windows":["night","afternoon","college_break"],"minutes":5,"coins":55,"kind":"strength","base":8,"unit":"reps","how":"2 series, baja despacio."},
+ {"id":"plank","name":"Plancha","windows":["wake","night","afternoon"],"minutes":4,"coins":50,"kind":"strength","base":20,"unit":"seg","how":"3 series con 20 s de descanso."},
+ {"id":"lunges","name":"Zancadas","windows":["night","afternoon"],"minutes":5,"coins":55,"kind":"strength","base":10,"unit":"reps/pierna","how":"Alterna piernas, apóyate en la pared si necesitas."},
+ {"id":"burpee_boss","name":"Jefe Burpee","windows":["night","afternoon"],"minutes":5,"coins":80,"kind":"game","base":6,"unit":"burpees","how":"Derrota al jefe: 3 rondas, descansa 30 s entre rondas."},
+ {"id":"calf","name":"Elevación de talones en el bus","windows":["bus_am","bus_pm","work_break"],"minutes":4,"coins":25,"kind":"bus","base":20,"unit":"reps","how":"De pie y bien agarrado, sube y baja talones."},
+ {"id":"bus_iso","name":"Isométricos sentado","windows":["bus_am","bus_pm"],"minutes":5,"coins":25,"kind":"bus","how":"Aprieta abdomen 10 s x6, glúteos 10 s x6, hombros atrás x6."},
+ {"id":"chair_squat","name":"Sentarse y pararse","windows":["work_break","college_break"],"minutes":3,"coins":30,"kind":"strength","base":10,"unit":"reps","how":"Sin usar las manos."},
+ {"id":"stairs","name":"Misión escaleras","windows":["lunch","college_break","work_break"],"minutes":5,"coins":60,"kind":"strength","base":3,"unit":"subidas","how":"Sube los pisos que puedas, baja con control."},
+ {"id":"brisk_walk","name":"Caminata rápida","windows":["lunch","afternoon","walk_home"],"minutes":20,"coins":100,"kind":"walk","base":20,"unit":"min","how":"Ritmo en que puedas hablar pero no cantar."},
+ {"id":"long_walk","name":"Caminata larga","windows":["lunch","afternoon"],"minutes":30,"coins":150,"kind":"walk","base":30,"unit":"min","how":"Come algo ligero antes o después."},
+ {"id":"run_intervals","name":"Intervalos trote/caminata","windows":["lunch","afternoon"],"minutes":15,"coins":140,"kind":"run","base":15,"unit":"min","how":"1 min trote + 2 min caminata, repite."},
+ {"id":"walk_home_sat","name":"Caminata de regreso","windows":["walk_home"],"minutes":20,"coins":110,"kind":"walk","base":20,"unit":"min","how":"Solo si la ruta es segura y de día; si no, usa el bus."},
+ {"id":"step_boss","name":"Jefe de pasos","windows":["lunch","afternoon","walk_home"],"minutes":10,"coins":80,"kind":"game","base":1000,"unit":"pasos","how":"Cuenta pasos sin parar para ganarle al jefe."},
+ {"id":"song_game","name":"Juego de la canción","windows":["wake","night","afternoon","college_break"],"minutes":4,"coins":60,"kind":"game","how":"Una canción: sentadillas en el coro, saltos en la estrofa, plancha en el puente."},
+ {"id":"dice_game","name":"Dados de ejercicio","windows":["night","afternoon","college_break"],"minutes":8,"coins":90,"kind":"game","how":"6 tiradas: 1 sentadillas, 2 flexiones, 3 plancha, 4 saltos, 5 zancadas, 6 comodín; reps = número x 3."},
+ {"id":"yoga_flow","name":"Flujo de yoga/movilidad","windows":["night","afternoon","wake"],"minutes":8,"coins":60,"kind":"stretch","how":"Gato-vaca, perro boca abajo, estocada baja, torsión."}
+]

@@ -1,0 +1,188 @@
+{
+  "start_date": "2026-11-23",
+  "total_days": 30,
+  "base_coins": 500,
+  "coin_multiplier": 1.0,
+  "rest_days": [
+    7,
+    14,
+    21,
+    28
+  ],
+  "level_steps": [
+    1.0,
+    1.15,
+    1.3,
+    1.5
+  ],
+  "max_sessions": {
+    "normal": 4,
+    "busy": 2,
+    "rest": 2
+  },
+  "max_extras": 2,
+  "streak_min_sessions": 1,
+  "streak_bonus": {
+    "3": 30,
+    "7": 80,
+    "14": 150,
+    "21": 200,
+    "30": 400
+  },
+  "combo_bonus": {
+    "min_sessions": 3,
+    "coins": 40
+  },
+  "meal_slots": {
+    "weekday": [
+      "desayuno",
+      "almuerzo",
+      "merienda",
+      "cena"
+    ],
+    "saturday": [
+      "desayuno",
+      "almuerzo",
+      "merienda",
+      "cena"
+    ],
+    "sunday": [
+      "desayuno",
+      "almuerzo",
+      "merienda",
+      "cena"
+    ]
+  },
+  "windows": {
+    "weekday": [
+      {
+        "id": "lunch",
+        "label": "Hora de almuerzo",
+        "hint": "15:00-16:00, camina",
+        "priority": 1,
+        "max_min": 30
+      },
+      {
+        "id": "night",
+        "label": "Cierre del día",
+        "hint": "después de 22:00, antes de 00:00",
+        "priority": 2,
+        "max_min": 10
+      },
+      {
+        "id": "wake",
+        "label": "Despertar",
+        "hint": "6:00-6:20 antes de salir",
+        "priority": 3,
+        "max_min": 5
+      },
+      {
+        "id": "college_break",
+        "label": "Pausa en la universidad",
+        "hint": "entre clases/proyectos",
+        "priority": 4,
+        "max_min": 6
+      },
+      {
+        "id": "bus_pm",
+        "label": "Bus a la universidad",
+        "hint": "16:00-17:00, solo si vas seguro",
+        "priority": 5,
+        "max_min": 5
+      },
+      {
+        "id": "bus_am",
+        "label": "Bus al trabajo",
+        "hint": "6:20-8:00, solo si vas seguro",
+        "priority": 6,
+        "max_min": 5
+      },
+      {
+        "id": "work_break",
+        "label": "Micro-pausa en el trabajo",
+        "hint": "cualquier momento",
+        "priority": 7,
+        "max_min": 3
+      }
+    ],
+    "saturday": [
+      {
+        "id": "walk_home",
+        "label": "Caminata a casa",
+        "hint": "14:00-14:20, ruta segura",
+        "priority": 1,
+        "max_min": 20
+      },
+      {
+        "id": "night",
+        "label": "Cierre del día",
+        "hint": "antes de 00:00",
+        "priority": 2,
+        "max_min": 12
+      },
+      {
+        "id": "wake",
+        "label": "Despertar",
+        "hint": "al levantarte",
+        "priority": 3,
+        "max_min": 5
+      },
+      {
+        "id": "afternoon",
+        "label": "Tarde libre",
+        "hint": "cuando tengas un hueco",
+        "priority": 4,
+        "max_min": 20
+      }
+    ],
+    "sunday": [
+      {
+        "id": "afternoon",
+        "label": "Bloque libre",
+        "hint": "cuando tengas un hueco",
+        "priority": 1,
+        "max_min": 30
+      },
+      {
+        "id": "night",
+        "label": "Cierre del día",
+        "hint": "antes de 00:00",
+        "priority": 2,
+        "max_min": 12
+      },
+      {
+        "id": "wake",
+        "label": "Despertar",
+        "hint": "al levantarte",
+        "priority": 3,
+        "max_min": 5
+      }
+    ]
+  },
+  "quests": [
+    {
+      "text": "Toma las escaleras todas las veces que puedas hoy",
+      "bonus": 30
+    },
+    {
+      "text": "Bebe 6 vasos de agua",
+      "bonus": 25
+    },
+    {
+      "text": "Haz 3 pausas de 1 minuto lejos de la pantalla",
+      "bonus": 25
+    },
+    {
+      "text": "Llega a 6000 pasos",
+      "bonus": 50
+    },
+    {
+      "text": "Estira cuello y hombros después de estudiar",
+      "bonus": 20
+    },
+    {
+      "text": "Duerme antes de las 00:00",
+      "bonus": 40
+    }
+  ]
+}

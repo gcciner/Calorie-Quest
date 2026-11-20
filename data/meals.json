@@ -1,0 +1,18 @@
+[
+ {"id":"d1","name":"Pan con huevo + té","slot":"desayuno","kcal":320,"prep_min":7,"tier":"quick"},
+ {"id":"d2","name":"Avena con plátano","slot":"desayuno","kcal":300,"prep_min":8,"tier":"quick"},
+ {"id":"d3","name":"Pan con palta + café con leche","slot":"desayuno","kcal":380,"prep_min":6,"tier":"quick"},
+ {"id":"d4","name":"Tortilla de verduras + pan","slot":"desayuno","kcal":420,"prep_min":15,"tier":"normal"},
+ {"id":"a1","name":"Menú: arroz, pollo y ensalada","slot":"almuerzo","kcal":650,"prep_min":0,"tier":"quick"},
+ {"id":"a2","name":"Menestra con arroz y huevo","slot":"almuerzo","kcal":600,"prep_min":0,"tier":"quick"},
+ {"id":"a3","name":"Quinua con verduras y pollo","slot":"almuerzo","kcal":550,"prep_min":0,"tier":"normal"},
+ {"id":"a4","name":"Sopa + segundo ligero","slot":"almuerzo","kcal":700,"prep_min":0,"tier":"normal"},
+ {"id":"m1","name":"Fruta + puñado de maní","slot":"merienda","kcal":200,"prep_min":1,"tier":"quick"},
+ {"id":"m2","name":"Yogur + plátano","slot":"merienda","kcal":220,"prep_min":1,"tier":"quick"},
+ {"id":"m3","name":"Sándwich de queso","slot":"merienda","kcal":320,"prep_min":3,"tier":"quick"},
+ {"id":"m4","name":"Galletas de soda + queso + fruta","slot":"merienda","kcal":260,"prep_min":3,"tier":"normal"},
+ {"id":"c1","name":"Arroz con huevo y tomate","slot":"cena","kcal":450,"prep_min":10,"tier":"quick"},
+ {"id":"c2","name":"Sopa instantánea mejorada (huevo + verduras)","slot":"cena","kcal":350,"prep_min":8,"tier":"quick"},
+ {"id":"c3","name":"Tortilla de verduras + arroz","slot":"cena","kcal":500,"prep_min":15,"tier":"normal"},
+ {"id":"c4","name":"Pasta con atún y tomate","slot":"cena","kcal":560,"prep_min":15,"tier":"normal"}
+]
